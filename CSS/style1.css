@@ -1,0 +1,145 @@
+/*Home Page*/
+body {
+  background-color: #ffe9e3;
+  font-family: "Vidaloka", serif;
+}
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.introduction {
+  font-size: 30px;
+  font-family: "Sacramento", cursive;
+  background: white;
+  text-align: center;
+  padding: 5px;
+  margin: 1px 5px 20px 5px;
+}
+
+.impact {
+  color: green;
+}
+
+.lesson {
+  color: #430f58;
+}
+
+.want {
+  font-style: italic;
+}
+
+.nav-list {
+  background: lightgreen;
+  box-shadow: 0px 0px 10px var(--clr-gray200);
+  margin: 0;
+  padding: 1rem 0;
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+button {
+  color: green;
+  background: pink;
+  padding: 10px 15px;
+  border: 1px;
+  border-radius: 30px;
+  transition: all 200 ms ease-in-out;
+  font-family: "Vidaloka", serif;
+}
+
+button:hover {
+  color: pink;
+  background: green;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.learn-list {
+  list-style-type: square;
+}
+
+.woman-coding {
+  text-align: center;
+  position: relative;
+}
+
+#final {
+  font-size: 20px;
+  text-align: center;
+  color: #ee0e77;
+}
+
+/* Second Page */
+
+.book {
+  width: 220px;
+  height: 230px;
+  display: block;
+  margin: 0 auto;
+}
+
+.book-chart {
+  background-color: white;
+}
+
+.video-intro {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Vidaloka", serif;
+}
+
+.happy-video {
+  display: flex;
+  justify-content: center;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+}
+
+.reads {
+  text-align: center;
+  font-family: "Vidaloka", serif;
+}
+
+/*Contact Page*/
+
+.formbutton {
+  padding: 10px 50px 10px 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form-box {
+  background-color: lightgreen;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 400px;
+  /*Form outline*/
+  padding: 1em;
+  border: 1 px solid #ccc;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+input,
+textarea {
+  font-family: "Vidaloka", serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid rgb(15, 78, 39);
+  margin-bottom: 15px;
+}
